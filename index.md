@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Burning Oasis Conan Exiles Setup Guide
 
-You can use the [editor on GitHub](https://github.com/dplummer/burning-oasis/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+So, you want to join us in the inhospitaple desert? Along with a copy of the game, you'll need the following:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Invite to the server
+* Password to the server
+* Mods installed and activated
 
-### Markdown
+Optionally (though highly recommended), you can change your client's network settings to load the game and bases faster.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Mods
 
-```markdown
-Syntax highlighted code block
+* [LitMan Loot Legendary Chests](https://steamcommunity.com/sharedfiles/filedetails/?id=1367028501)
+* [LitMan Level One Fifty Six](https://steamcommunity.com/sharedfiles/filedetails/?id=1138108077)
+* [Pickup+](https://steamcommunity.com/sharedfiles/filedetails/?id=864199675)
+* [Glass Constructions and more...](https://steamcommunity.com/sharedfiles/filedetails/?id=901911361)
+* [Fashionist (1.0 compatible)](https://steamcommunity.com/sharedfiles/filedetails/?id=1159180273)
+* [Pythagoras Support Beams](https://steamcommunity.com/sharedfiles/filedetails/?id=1382183303)
 
-# Header 1
-## Header 2
-### Header 3
+Once you've **Subscribed** to each mod, start the game and activate them in the same order as above in the mod list.
 
-- Bulleted
-- List
+### Faster Load Times
 
-1. Numbered
-2. List
+On your computer, browse to where you've got conan installed, and edit the `common\Conan Exiles\Engine\Config\BaseEngine.ini` file.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+> *Note*: To find where Conan's installed, from steam right click on Conan in your library, select properties, goto the Local Files tab, then click the "Browe Local Files..." button.
+
+
+Once you have `BaseEngine.ini` open, find and edit the `[/Script/Engine.Player]` section and set the values to `100000`:
+
+```
+[/Script/Engine.Player]
+ConfiguredInternetSpeed=100000      ; Mike: Default is 10000 (in bytes per second)
+ConfiguredLanSpeed=100000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dplummer/burning-oasis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+More info from [this steam post](https://steamcommunity.com/app/440900/discussions/0/133256689833418626/) and [this unreal engine 4 page](https://answers.unrealengine.com/questions/353439/how-can-i-increase-network-bandwidth-limit.html).
