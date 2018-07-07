@@ -1,3 +1,5 @@
+title: Burning Oasis
+---
 ## Burning Oasis Conan Exiles Setup Guide
 
 So, you want to join us in the inhospitaple desert? Along with a copy of the game, you'll need the following:
