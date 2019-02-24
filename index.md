@@ -18,6 +18,7 @@ Optionally (though highly recommended), you can change your client's network set
 * [Glass Constructions and more...](https://steamcommunity.com/sharedfiles/filedetails/?id=901911361)
 * [Fashionist (1.0 compatible)](https://steamcommunity.com/sharedfiles/filedetails/?id=1159180273)
 * [Pythagoras Support Beams](https://steamcommunity.com/sharedfiles/filedetails/?id=1382183303)
+* [Savage Steel](https://steamcommunity.com/sharedfiles/filedetails/?id=1367404881)
 
 Once you've **Subscribed** to each mod, start the game and activate them in the same order as above in the mod list.
 
